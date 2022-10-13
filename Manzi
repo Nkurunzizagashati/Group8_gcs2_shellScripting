@@ -1,0 +1,13 @@
+#!/bin/bash
+# a script that asks the user for two numbers and outputs their products.
+
+echo  "Enter the first number: "
+
+read first_number
+
+echo  "Enter second number: "
+
+read second_number
+
+product=$(($first_number * $second_number))
+echo "The product of $first_number and $second_number is $product"
