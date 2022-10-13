@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+echo "write the file path of your choice: "
+read dir
+if [ -d "$dir" ]
+then
+ls $dir
+else
+echo "Enter the correct path"
+fi
