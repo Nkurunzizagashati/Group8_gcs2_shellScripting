@@ -1,1 +1,1 @@
-shell scripts is so amazing
+shell scripts are so amazing
